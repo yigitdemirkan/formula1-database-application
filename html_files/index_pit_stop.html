@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Pit Stop</title>
+</head>
+<body>
+
+    <h2>Insert New Pit Stop</h2>
+
+    <form action="insert_pit_stop.php" method="POST">
+        <label for="pid">Pit Stop ID:</label><br>
+        <input type="number" id="pid" name="pid" required><br><br>
+
+        <label for="reason">Reason:</label><br>
+        <input type="text" id="reason" name="reason" required><br><br>
+
+        <label for="duration">Duration (seconds):</label><br>
+        <input type="number" step="any" id="duration" name="duration" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Engine Supplier</title>
+</head>
+<body>
+
+    <h2>Insert New Engine Supplier</h2>
+
+    <form action="insert.php" method="POST">
+        <label for="esid">Engine Supplier ID:</label><br>
+        <input type="number" id="esid" name="esid" required><br><br>
+
+        <label for="ename">Engine Supplier Name:</label><br>
+        <input type="text" id="ename" name="ename" required><br><br>
+
+        <label for="country">Country:</label><br>
+        <input type="text" id="country" name="country" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <h2>View Engine Suppliers</h2>
+
+    <div id="results">
+        <h3>Engine Suppliers:</h3>
+        <?php
+        include('view.php');
+        ?>
+    </div>
+
+</body>
+</html>
