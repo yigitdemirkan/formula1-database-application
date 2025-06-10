@@ -3,5 +3,5 @@ The aim for this project is to create a database system for Fomula 1 Season 2023
 # Table of Contents:
 - Phase1.docx: Description, ER Model and Relational Model of the project.
 
-- 
+- phase2.sql: SQL codes of Trigger and Stored Procedure implementations.
 
