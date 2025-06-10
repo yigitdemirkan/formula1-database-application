@@ -5,3 +5,9 @@ The aim for this project is to create a database system for Fomula 1 Season 2023
 
 - phase2.sql: SQL codes of Trigger and Stored Procedure implementations.
 
+- html_files:
+
+- php_files:
+
+- Phase2.pdf:
+
